@@ -1,0 +1,270 @@
+:root {
+    --enqueue-primary-linear-color: linear-gradient(104.08deg, #12278C 8.7%, #310C9C 81.19%);
+    --enqueue-primary-color: #12278C;
+    --enqueue-heading-font: 'Merriweather', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    /* border: 1px solid; */
+}
+
+/* Utility Styles Starts Here */
+
+.h-screen {
+    height: 100vh;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.text-base {
+    font-size: 1rem;
+}
+
+
+/* Utility Styles Ends Here */
+
+.nav {
+    height: 100px;
+    
+}
+
+
+.banner {
+    background: url(../image/banner-bg.svg) no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.banner__title {
+    font-family: var(--enqueue-heading-font)
+}
+
+
+/* nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.navlinks{
+    flex: 1;
+    text-align: right;
+}
+
+.navlinks ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.navlinks ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.login{
+    flex: 1;
+    text-align: right;
+}
+.login ul li{
+  list-style: none;
+    display:inline-block;
+    padding: 8px 12px;
+    position: relative;
+    text-align: right;
+}
+.login a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px; 
+    border: 1px solid white;
+    padding: 10px 16px;
+}
+.active a:hover{
+    color: blue;
+    background: white;
+    
+} */
+
+.course{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center
+}
+
+/* .course-col{ 
+    flex-basis: 44%;
+    border-radius: 10px;
+   margin-bottom:5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+    transition: 0.5s;
+}
+*/
+.Curriculum{
+    width:80%;
+    margin: auto;
+    padding-top: 500px;
+    margin-bottom: 200px;
+}
+.cur-head{
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    background-color:lightpink;
+    color: black;
+    border: 1px solid lightgray;
+    height: 30em;
+}
+h5{
+    padding: 10px 10px;
+}
+
+.log{
+    color: white;
+    background-color: blue;
+
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+
+.stories{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.stories-col{
+    flex-basis: 54%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    position: left;
+    overflow: hidden;
+    display: flex;
+}
+
+.stories-col img{
+    width: 40%;
+    border-radius: 10%;
+}
+.tutors{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top:100px;
+    
+}
+.tutors-col{
+    flex-basis: 54%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    position: left;
+    overflow: hidden;
+    display: flex;
+}
+.tutors-col img{
+    width: 40%;
+    border-radius: 10%;
+}
+footer{
+    width: 100%;
+    padding-top: 200px;
+    margin: auto;
+    height: 50%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.community{
+    margin: 70px 70px;
+}
+.About{
+    margin: 70px 70px;
+}
+.support{
+    margin: 70px 70px;
+}
+
+
+@media(max-width:700px){
+    footer{
+
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
